@@ -1,8 +1,8 @@
 # Add comments before you do anything else.
 
 #!/usr/bin/env python3
-# Author:
-# Date:
+# Author: Reina James
+# Date: 9/10/2026
 # Purpose: Create the complete calculator function using default parameters and positional parameters
 # Usage: ./lab4d.py
 

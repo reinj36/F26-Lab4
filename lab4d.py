@@ -7,3 +7,7 @@
 # Usage: ./lab4d.py
 
 # Follow the instructions from readme.md.
+
+#performs a calculation inputted by user on two numbers inputted by user
+def compute(num1, num2, operation = '+') :
+    return num1

@@ -34,7 +34,9 @@ def main() :
     #call function and store result in answer
     answer = compute(num1, num2, operation)
 
-    
+    #print answer
+    print("Result: ", answer)
 
-
+if __name__ == "__main__" :
+    main()
 

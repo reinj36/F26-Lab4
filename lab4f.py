@@ -10,6 +10,12 @@
 
 def get_initials(*args) :
 
+    """
+    @Function definition: Extracts the first element from each argument.
+    @param *args: Any number of parameters.
+    @return: List of first elements from each argument.
+    """
+
     #create list to hold initials
     initials = []
 

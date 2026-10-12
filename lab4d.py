@@ -27,9 +27,9 @@ def compute(num1, num2, operation = '+') :
 def main() :
 
     #get two numbers and operation from user
-    num1 = "Enter a number:"
-    num2 = "Enter another number:"
-    operation = "Enter an operation (+, -, *, or /):"
+    num1 = int(input("Enter a number: "))
+    num2 = int(input("Enter another number: "))
+    operation = input("Enter an operation (+, -, *, or /): ")
 
     #call function and store result in answer
     answer = compute(num1, num2, operation)

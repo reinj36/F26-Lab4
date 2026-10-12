@@ -10,6 +10,13 @@
 
 #performs a calculation inputted by user on two numbers inputted by user
 def compute(num1, num2, operation = '+') :
+
+    """
+    @Function definition: Performs a calculation inputted by user on two numbers inputted by user.
+    @param num1, num2, operation: Two numbers and an operation symbol (*, +, - or /)
+    @return: Result of the calculation.
+    """
+
     if operation == '+':
         return num1 + num2
     elif operation == '-' :
